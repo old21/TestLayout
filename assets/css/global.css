@@ -23,7 +23,7 @@ input, button {
 
 .button-outline {
     border: 2px solid #D7DBEC;
-    padding: 10px 16px;
+    padding: 10px 22px;
     border-radius: 10px;
     font-size: 17px;
     font-family: 'Inter Medium';
@@ -35,35 +35,11 @@ input, button {
     transition: 0.3s;
 }
 
-.button-outline.red:hover {
-    border: 2px solid var(--red);
-}
-
-.button-outline.red:after {
-    background: var(--red);
-}
-
 .button-outline:hover {
-    color: #FFFFFF !important;
-    border: 2px solid var(--blue);
+    background: var(--background-primary);
 }
 
-.button-outline:hover:after {
-    width: 100%;
-}
 
-.button-outline:after {
-    content: "";
-    display: block;
-    position: absolute;
-    background: var(--blue);
-    height: 100%;
-    transition: 0.3s;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 0;
-}
 
 .button-outline.red {
     color: var(--text-red);
