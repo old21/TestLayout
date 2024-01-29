@@ -32,11 +32,15 @@ input, button {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    transition: 0.3s;
+    transition: background-color 0.3s, scale .7s cubic-bezier(0,.8,.26,.99);
 }
 
 .button-outline:hover {
     background: var(--background-primary);
+}
+
+.button-outline:active{
+    scale:0.9;
 }
 
 
