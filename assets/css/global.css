@@ -373,7 +373,7 @@ a {
     color: var(--text-secondary);
 }
 
-.content__menu {flex-shrink: 0;}
+.content__menu {flex-shrink: 0; position:sticky; top: 1rem; height: max-content; }
 
 .content__block {
     display: flex;
