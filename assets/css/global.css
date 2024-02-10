@@ -15,6 +15,10 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: var(--blue);
 }
+.notyf__message{
+    font-family: "Inter Medium";
+    font-size:15px;
+}
 /* Reset */
 
 input, button {
